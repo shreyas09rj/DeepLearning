@@ -26,9 +26,6 @@ class NeuralNetwork(nn.Module):
         return out
 
 
-
-
-
 def load_data():
     # download train dataset
     training_data = datasets.FashionMNIST(root='./data', train=True, download=True,
